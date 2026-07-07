@@ -32,7 +32,11 @@ letter-spacing:2px;
 
 header{
 
-position:absolute;
+position:fixed;
+
+top:40px;
+
+left:0;
 
 width:100%;
 
@@ -42,9 +46,33 @@ justify-content:space-between;
 
 align-items:center;
 
-padding:30px 8%;
+padding:25px 8%;
 
-z-index:100;
+z-index:1000;
+
+transition:.4s;
+
+}
+
+header.scrolled{
+
+background:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+padding:18px 8%;
+
+}
+
+header.scrolled nav a{
+
+color:#1f1f1f;
+
+}
+
+header.scrolled .logo{
+
+color:#1f1f1f;
 
 }
 
