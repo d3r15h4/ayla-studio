@@ -216,9 +216,13 @@ line-height:1.7;
 
 .button{
 
-display:inline-block;
+display:inline-flex;
 
-padding:16px 34px;
+align-items:center;
+
+gap:12px;
+
+padding:18px 36px;
 
 background:white;
 
@@ -229,6 +233,18 @@ text-decoration:none;
 font-weight:600;
 
 transition:.35s;
+
+border-radius:50px;
+
+}
+
+.button:hover{
+
+background:#B08D57;
+
+color:white;
+
+transform:translateY(-3px);
 
 }
 
